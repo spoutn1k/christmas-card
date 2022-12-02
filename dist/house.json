@@ -27,6 +27,7 @@
         "kitchen": {
             "name": "Kitchen",
             "image": null,
+            "people": ["dude_left"],
             "transitions": {
                 "back": "entrance"
             }
