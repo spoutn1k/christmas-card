@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+
+#actions {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 4rem;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    margin: 0;
+    padding: 1rem;
+}
+
+#actions li {
+    list-style-type: none;
+}
+
+#actions button {
+    background: #ddd;
+    border: solid 2px #aaa;
+    height: 4rem;
+    aspect-ratio: 1/1;
+    padding: 0;
+    border-radius: 10px;
+
+    font-size: 1.5rem;
+}
