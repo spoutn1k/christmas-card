@@ -14,6 +14,11 @@ function fetchState(stateID, stateData) {
 function displayState(stateData) {
     document.querySelector("#label").innerHTML = stateData.name;
 
+    document.body.style.backgroundImage = `url('assets/${stateData.image}')`;
+    document.body.style.backgroundRepeat = 'no-repeat';
+    document.body.style.backgroundPosition = 'center';
+    document.body.style.backgroundSize = 'cover';
+
     ['left', 'right', 'forward', 'back'].forEach((direction) => {
         let button = document.querySelector(`#${direction}`);
         if (direction in stateData.transitions) {

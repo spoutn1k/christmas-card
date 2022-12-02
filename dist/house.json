@@ -3,7 +3,7 @@
     "states": {
         "entrance": {
             "name": "Entrance",
-            "image": null,
+            "image": "entrance.jpg",
             "transitions": {
                 "left": "dining_room",
                 "right": "living_room",
@@ -12,21 +12,21 @@
         },
         "living_room": {
             "name": "Living room",
-            "image": null,
+            "image": "living-room.jpg",
             "transitions": {
                 "left": "entrance"
             }
         },
         "dining_room": {
             "name": "Dining room",
-            "image": null,
+            "image": "dining-room.jpg",
             "transitions": {
                 "right": "entrance"
             }
         },
         "kitchen": {
             "name": "Kitchen",
-            "image": null,
+            "image": "kitchen.jpg",
             "people": ["dude_left"],
             "transitions": {
                 "back": "entrance"

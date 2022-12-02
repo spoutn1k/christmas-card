@@ -15,12 +15,19 @@ body {
     font-size: 2rem;
 }
 
+body p {
+    padding: 1rem;
+    background: #ddd;
+    border: solid 2px #aaa;
+}
+
 #actions {
     position: fixed;
-    left: 0;
-    bottom: 0;
+    left: 2rem;
+    bottom: 2rem;
+    right: 2rem;
     height: 4rem;
-    width: 100%;
+    padding: 0;
 
     display: flex;
     flex-flow: row nowrap;
@@ -29,7 +36,6 @@ body {
     gap: 1rem;
 
     margin: 0;
-    padding: 1rem;
 }
 
 #actions li {
@@ -61,3 +67,5 @@ body {
     left: 0;
     height: 100%;
 }
+
+@media only screen and (max-width: 800px) {}
