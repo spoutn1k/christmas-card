@@ -46,3 +46,18 @@ body {
 
     font-size: 1.5rem;
 }
+
+#cardholder {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+
+    height: 10rem;
+}
+
+#cardholder img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}

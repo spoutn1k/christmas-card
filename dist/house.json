@@ -31,5 +31,14 @@
                 "back": "entrance"
             }
         }
+    },
+
+    "christmas_card": {
+        "full": "group-photo.jpg",
+        "people": {
+            "dude_left": {
+                "mask": "dude-left.png"
+            }
+        }
     }
 }
