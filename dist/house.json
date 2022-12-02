@@ -1,0 +1,35 @@
+{
+    "initial_state": "entrance",
+    "states": {
+        "entrance": {
+            "name": "Entrance",
+            "image": null,
+            "transitions": {
+                "left": "dining_room",
+                "right": "living_room",
+                "forward": "kitchen"
+            }
+        },
+        "living_room": {
+            "name": "Living room",
+            "image": null,
+            "transitions": {
+                "left": "entrance"
+            }
+        },
+        "dining_room": {
+            "name": "Dining room",
+            "image": null,
+            "transitions": {
+                "right": "entrance"
+            }
+        },
+        "kitchen": {
+            "name": "Kitchen",
+            "image": null,
+            "transitions": {
+                "back": "entrance"
+            }
+        }
+    }
+}
